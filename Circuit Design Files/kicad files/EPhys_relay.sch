@@ -1,0 +1,207 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:additional_connectors
+LIBS:additional_devices
+LIBS:additional_ics
+LIBS:EPhys_relay-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P1
+U 1 1 589A0FCD
+P 7600 4900
+F 0 "P1" H 7600 5050 50  0000 C CNN
+F 1 "CONN_01X02" V 7700 4900 50  0000 C CNN
+F 2 "Connectors_JST_PH:Connectors_JST_S2B-PH-K" H 7600 4900 50  0001 C CNN
+F 3 "" H 7600 4900 50  0000 C CNN
+	1    7600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 589A1155
+P 6350 4150
+F 0 "P4" H 6350 4250 50  0000 C CNN
+F 1 "electrode" V 6450 4150 50  0000 C CNN
+F 2 "Connectors:PINTST" H 6350 4150 50  0001 C CNN
+F 3 "" H 6350 4150 50  0000 C CNN
+	1    6350 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 589A1240
+P 5900 5900
+F 0 "P2" H 5900 6000 50  0000 C CNN
+F 1 "Headstage" V 6000 5900 50  0000 C CNN
+F 2 "Connectors:PINTST" H 5900 5900 50  0001 C CNN
+F 3 "" H 5900 5900 50  0000 C CNN
+	1    5900 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 589A128F
+P 5900 4050
+F 0 "P3" H 5900 4150 50  0000 C CNN
+F 1 "stim" V 6000 4050 50  0000 C CNN
+F 2 "Connectors:PINTST" H 5900 4050 50  0001 C CNN
+F 3 "" H 5900 4050 50  0000 C CNN
+	1    5900 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 432H U1
+U 1 1 58B0A7E6
+P 4850 4950
+F 0 "U1" H 4850 4850 50  0000 C CNN
+F 1 "432H" H 4850 5050 50  0000 C CNN
+F 2 "additional_devices:TO-5-8" H 4850 4950 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4850 4950 50  0001 C CNN
+	1    4850 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 4850 7300 4850
+Wire Wire Line
+	7050 4850 7050 4600
+Wire Wire Line
+	7050 4600 5600 4600
+Wire Wire Line
+	5600 5300 7050 5300
+Wire Wire Line
+	7050 5300 7050 4950
+Wire Wire Line
+	7050 4950 7200 4950
+$Comp
+L D D1
+U 1 1 58B0AB4A
+P 6850 4900
+F 0 "D1" H 6850 5000 50  0000 C CNN
+F 1 "D" H 6850 4800 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6850 4900 50  0001 C CNN
+F 3 "" H 6850 4900 50  0000 C CNN
+	1    6850 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 4750 6850 4600
+Connection ~ 6850 4600
+Wire Wire Line
+	6850 5050 6850 5300
+Connection ~ 6850 5300
+Wire Wire Line
+	5600 4700 5900 4700
+Wire Wire Line
+	5900 4700 5900 4250
+Wire Wire Line
+	5600 5200 5900 5200
+Wire Wire Line
+	5900 5200 5900 5700
+$Comp
+L CONN_01X01 P6
+U 1 1 58B0B114
+P 7100 4100
+F 0 "P6" H 7100 4200 50  0000 C CNN
+F 1 "bath" V 7200 4100 50  0000 C CNN
+F 2 "Connectors:PINTST" H 7100 4100 50  0001 C CNN
+F 3 "" H 7100 4100 50  0000 C CNN
+	1    7100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 58B0B1EF
+P 7050 5900
+F 0 "P5" H 7050 6000 50  0000 C CNN
+F 1 "H_GND" V 7150 5900 50  0000 C CNN
+F 2 "Connectors:PINTST" H 7050 5900 50  0001 C CNN
+F 3 "" H 7050 5900 50  0000 C CNN
+	1    7050 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 5000 6350 5000
+Wire Wire Line
+	6350 5000 6350 4350
+Wire Wire Line
+	5600 5100 6600 5100
+Wire Wire Line
+	6600 5100 6600 5700
+Wire Wire Line
+	6600 5700 7150 5700
+Wire Wire Line
+	5600 4900 6600 4900
+Wire Wire Line
+	6600 4900 6600 4300
+Wire Wire Line
+	6600 4300 7150 4300
+Wire Wire Line
+	5600 4800 6350 4800
+Connection ~ 6350 4800
+Wire Wire Line
+	7300 4850 7300 4950
+Wire Wire Line
+	7300 4950 7400 4950
+Wire Wire Line
+	7200 4950 7200 4900
+Wire Wire Line
+	7200 4900 7400 4900
+Wire Wire Line
+	7400 4900 7400 4850
+Wire Wire Line
+	7150 4300 7150 5700
+Connection ~ 7100 4300
+Connection ~ 7050 5700
+$Comp
+L CONN_01X01 P7
+U 1 1 58B0C020
+P 6600 5900
+F 0 "P7" H 6600 6000 50  0000 C CNN
+F 1 "S_GND" V 6700 5900 50  0000 C CNN
+F 2 "Connectors:PINTST" H 6600 5900 50  0001 C CNN
+F 3 "" H 6600 5900 50  0000 C CNN
+	1    6600 5900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
