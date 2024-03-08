@@ -1,9 +1,8 @@
 # electroporation
-A repository for electronics and hardware design files for a single-cell electroporation rig.
+Repository for electronics and hardware design files for the single-cell electroporation rig.
 
-Here you will find
+Here you will find:
 
-- Manual
-- Bill of Materials
-- Design Files
-...
+- KiCAD files for the circuit (Circuit Design Files)
+- Data sheets for electronic components attached to the circuit (Data Sheets) 
+- CAD files for the headstage adapter components and the custom set screw (Hardware Design Files)
