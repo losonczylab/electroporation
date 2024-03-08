@@ -1,0 +1,20 @@
+Materials:
+
+	Glass-Filled Wear- and Chemical-Resistant PEEK 1/2" Diameter [1 foot]
+	(https://www.mcmaster.com/8678K11/)
+
+Screw dimensions:
+
+	Thread: 7/16-20
+	Length: 1/2"
+
+Instructions:
+
+	Have a professional machine shop or use a tap and die set to machine the desired number
+	of set screws. The precise specifications for the screw can be found in the CAD files.
+	Machine shops will know how to work with this material. 
+
+Purpose:
+
+	Most manufactured 7/16-20 screws are made of steel or another conductive material. PEEK is a durable,
+	insulating polymer that will prevent the attached electrode connected for picking up electrical noise.
